@@ -5,16 +5,18 @@
 'use strict';
 import React, {
   Component,
-  // Navigator,
+  StyleSheet,
   NavigatorIOS,
   View,
   Text
 } from 'react-native';
 
 import ListPizza from './scene/listpizza';
+import DetailPage from './scene/detailpage';
 
 var ROUTES = {
-  listpizza: ListPizza
+  listpizza: ListPizza,
+  detailpage: DetailPage
 }
 
 module.exports = class StaticPizza extends Component {
@@ -22,19 +24,14 @@ module.exports = class StaticPizza extends Component {
     super(props); 
   }
   render() {
-    // return (
-    //   <Navigator
-    //     initialRoute={{id: 'listpizza', title: 'List of Pizza', index: 0}}
-    //     renderScene={this.renderScene}
-    //   />
-    // );
     return (
       <NavigatorIOS
         initialRoute={{
-          component: ROUTES.listpizza,
-          title: 'My View Title',
+          component: ROUTES.detailpage,
+          title: 'Test',
           passProps: { myProp: 'foo' },
         }}
+        style={styles.container}
       />
     );
   }
@@ -45,3 +42,8 @@ module.exports = class StaticPizza extends Component {
   }
 }
 
+const styles = StyleSheet.create({
+  container: {
+    flex: 1
+  },
+});
