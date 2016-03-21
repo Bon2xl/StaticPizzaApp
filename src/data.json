@@ -1,0 +1,28 @@
+{
+	"pizza" : [
+		{
+			"id": 0,
+			"name": "Neapolitan Pizza",
+			"toppings": "Tomato, chunks of mozzarella cheese, and basil leaves",
+			"description": "Neapolitan pizzas are often credited as the original Italian creation we know and love as pizza today. There are two kinds of Neapolitan pizzas: marinara and Margherita."
+		},
+		{
+			"id": 1,
+			"name": "Deep Dish Pizza",
+			"toppings": "Cheese, meat, vegetables, and diced tomatoes or chunky marinara sauce",
+			"description": "A deep dish style pizza, commonly called a Chicago deep dish, is named for its founding location, Chicago, IL. This pizza's deep ledge allows more room for piling high a variety of toppings. Due to the pizza's thick design, it is usually filled 'upside down.' The vegetables, cheeses, and meats are placed on the bottom along the crust, enabling them to cook completely. Plus, this positioning eliminates any concerns of burning the cheese during the extended bake time. Tomato sauce is then poured over all the ingredients. This marinades all the ingredients, and when you cut the pizza, it'll unveil the gooey cheese hiding under the layer of sauce. A thin sheet of dough can be added on top to keep any of the toppings contained in a pie formation. Unlike other pies, these types of pizzas are eaten with a knife and fork to accommodate the large size and abundance of toppings."
+		},
+		{
+			"id": 2,
+			"name": "New York-Style Pizza",
+			"toppings": "Tomato sauce and grated mozzarella cheese",
+			"description": "New York-style thin crust pizza is intentionally narrow so it can be folded in half and eaten like a sandwich. The general rule for all thin crust pizzas is to keep everything sparse, including the crust thickness and layer of tomato sauce. Authentic New York-style pizza has one or two toppings, including cheese. However, many New Yorkers would argue this type of pizza cannot be replicated outside the city, as the water's acidity and hardness accounts for the crust's texture and flavor. Try these suggestions to make your own variation of New York-style thin crust pizza!"
+		},
+		{
+			"id": 3,
+			"name": "Sicilian Pizza",
+			"toppings": "Tomato sauce and mozzarella cheese",
+			"description": "Gourmet, or California-style, pizza is known for its unusual ingredients. Often these types of pizza do not use traditional marinara sauce. Instead they use Alfredo sauce, olive oil, or no sauce at all. Try spinach Alfredo or broccoli Alfredo pizza at your business for something new! Due to their uniqueness, dessert and breakfast pizzas also fit under this category. For example, Infinito's, a franchised pizza buffet, offers blueberry, apple, cherry, chocolate chip, and Oreo dessert pizzas. Breakfast pizzas have also gained popularity. "
+		}
+	]
+}
